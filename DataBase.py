@@ -5,7 +5,7 @@ class DataBase:
         self.con = connector.connect(host='localhost',
                                     port ='3306',
                                     user='root',
-                                    password='410tc1',
+                                    password='****',
                                     database='pythontest')
         query = 'create table if not exists user(userID int primary key, userName varchar(200), phone varchar(12))'
         cur=self.con.cursor()
